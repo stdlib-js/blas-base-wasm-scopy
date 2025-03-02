@@ -40,7 +40,7 @@ limitations under the License.
 ## Installation
 
 ```bash
-npm install @stdlib/blas-base-scopy-wasm
+npm install @stdlib/blas-base-wasm-scopy
 ```
 
 Alternatively,
@@ -60,7 +60,7 @@ To view installation and usage instructions specific to each branch build, be su
 ## Usage
 
 ```javascript
-var scopy = require( '@stdlib/blas-base-scopy-wasm' );
+var scopy = require( '@stdlib/blas-base-wasm-scopy' );
 ```
 
 #### scopy.main( N, x, strideX, y, strideY )
@@ -317,7 +317,7 @@ The function has the following additional parameters:
 
 ```javascript
 var discreteUniform = require( '@stdlib/random-array-discrete-uniform' );
-var scopy = require( '@stdlib/blas-base-scopy-wasm' );
+var scopy = require( '@stdlib/blas-base-wasm-scopy' );
 
 var opts = {
     'dtype': 'float32'
@@ -370,7 +370,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -380,19 +380,19 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <section class="links">
 
-[npm-image]: http://img.shields.io/npm/v/@stdlib/blas-base-scopy-wasm.svg
-[npm-url]: https://npmjs.org/package/@stdlib/blas-base-scopy-wasm
+[npm-image]: http://img.shields.io/npm/v/@stdlib/blas-base-wasm-scopy.svg
+[npm-url]: https://npmjs.org/package/@stdlib/blas-base-wasm-scopy
 
-[test-image]: https://github.com/stdlib-js/blas-base-scopy-wasm/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/blas-base-scopy-wasm/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/blas-base-wasm-scopy/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/blas-base-wasm-scopy/actions/workflows/test.yml?query=branch:main
 
-[coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/blas-base-scopy-wasm/main.svg
-[coverage-url]: https://codecov.io/github/stdlib-js/blas-base-scopy-wasm?branch=main
+[coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/blas-base-wasm-scopy/main.svg
+[coverage-url]: https://codecov.io/github/stdlib-js/blas-base-wasm-scopy?branch=main
 
 <!--
 
-[dependencies-image]: https://img.shields.io/david/stdlib-js/blas-base-scopy-wasm.svg
-[dependencies-url]: https://david-dm.org/stdlib-js/blas-base-scopy-wasm/main
+[dependencies-image]: https://img.shields.io/david/stdlib-js/blas-base-wasm-scopy.svg
+[dependencies-url]: https://david-dm.org/stdlib-js/blas-base-wasm-scopy/main
 
 -->
 
@@ -406,15 +406,15 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [umd]: https://github.com/umdjs/umd
 [es-module]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
 
-[deno-url]: https://github.com/stdlib-js/blas-base-scopy-wasm/tree/deno
-[deno-readme]: https://github.com/stdlib-js/blas-base-scopy-wasm/blob/deno/README.md
-[umd-url]: https://github.com/stdlib-js/blas-base-scopy-wasm/tree/umd
-[umd-readme]: https://github.com/stdlib-js/blas-base-scopy-wasm/blob/umd/README.md
-[esm-url]: https://github.com/stdlib-js/blas-base-scopy-wasm/tree/esm
-[esm-readme]: https://github.com/stdlib-js/blas-base-scopy-wasm/blob/esm/README.md
-[branches-url]: https://github.com/stdlib-js/blas-base-scopy-wasm/blob/main/branches.md
+[deno-url]: https://github.com/stdlib-js/blas-base-wasm-scopy/tree/deno
+[deno-readme]: https://github.com/stdlib-js/blas-base-wasm-scopy/blob/deno/README.md
+[umd-url]: https://github.com/stdlib-js/blas-base-wasm-scopy/tree/umd
+[umd-readme]: https://github.com/stdlib-js/blas-base-wasm-scopy/blob/umd/README.md
+[esm-url]: https://github.com/stdlib-js/blas-base-wasm-scopy/tree/esm
+[esm-readme]: https://github.com/stdlib-js/blas-base-wasm-scopy/blob/esm/README.md
+[branches-url]: https://github.com/stdlib-js/blas-base-wasm-scopy/blob/main/branches.md
 
-[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/blas-base-scopy-wasm/main/LICENSE
+[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/blas-base-wasm-scopy/main/LICENSE
 
 [blas]: http://www.netlib.org/blas
 
