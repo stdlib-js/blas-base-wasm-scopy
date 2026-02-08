@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import scopy from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-scopy@esm/index.mjs';
+import scopy from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-scopy@v0.1.1-esm/index.mjs';
 ```
 
 #### scopy.main( N, x, strideX, y, strideY )
@@ -304,7 +304,7 @@ The function has the following additional parameters:
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
-import scopy from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-scopy@esm/index.mjs';
+import scopy from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-scopy@v0.1.1-esm/index.mjs';
 
 var opts = {
     'dtype': 'float32'
